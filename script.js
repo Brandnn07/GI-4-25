@@ -16,13 +16,12 @@
 // console with the variable from step 3 ( e.g. Is Tom’s BMI higher than Jerry’s? false).
 
 // VERY EASY
-var x = 2;
-var y = 4;
+// var x = 2;
+// var y = 4;
 function min(x, y) {
   return Math.min(x, y)
 }
-min();
-
+console.log(min(2, 4))
 // EASY
 var studentA = ["John", "Doe", 18];
 var studentB = ["Mary", "Sue", 17];
