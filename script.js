@@ -16,17 +16,10 @@
 // console with the variable from step 3 ( e.g. Is Tom’s BMI higher than Jerry’s? false).
 
 // VERY EASY
-function min() {
-  var x = 2;
-  var y = 4;
-
-  if (x > y) {
-    console.log(`The minimum is ${y}`);
-  } else if (x < y) {
-    console.log(`The minimum is ${x}`);
-  } else {
-    console.log("There is no minimum number");
-  }
+var x = 2;
+var y = 4;
+function min(x, y) {
+  return Math.min(x, y)
 }
 min();
 
@@ -68,8 +61,8 @@ function counting(){
             counting();
         }
     } else {
+        alert("Please enter a number!");
         counting();
-      alert("Please enter a number!");
     }
 }
 counting();
