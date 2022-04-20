@@ -60,7 +60,7 @@ function counting(){
       "Hello! Please input a number from 1-12 and we'll return the month in the console"
     ));
     if (typeof input === 'number') {
-        if (input <= 12) {
+        if (input <= 12 && input > 0) {
              var month = input - 1;
             console.log(`You typed in ${input} and that month is ${months[month]}`);
         } else {
